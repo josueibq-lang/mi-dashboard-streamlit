@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("Mi Dashboard")
+api_key = st.secrets["api_key"]
 import pandas as pd
 import numpy as np
 import plotly.express as px
